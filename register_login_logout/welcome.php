@@ -144,6 +144,7 @@ window.onclick = function(event) {
 <div>
 <table style="width:100%">
   <tr>
+    <th>ID</th>
     <th>Name</th>
     <th>Email</th>
     <th>Department</th>
@@ -163,11 +164,13 @@ window.onclick = function(event) {
 
     while ($row_emp = mysql_fetch_array($run_emp)) {
       // echo "string";
+      $id = $row_emp['ID'];
       $emp_name = $row_emp['emp_name'];
       $emp_email = $row_emp['emp_email'];
       $emp_dep = $row_emp['emp_dep'];
 
       echo "<tr>
+              <th>$id </th>
               <th>$emp_name </th>
               <th>$emp_email </th>
               <th> $emp_dep </th>
@@ -187,6 +190,11 @@ window.onclick = function(event) {
   <form name="logout" action="logout.php">
   <button type="submit" name="logout" style="width:auto;">Logout</button>
   </form>
+
+  <br />
+  <a href="http://myproject.dev/delete.html">
+  <button type="submit" name="delete" style="width:auto;">Delete</button>
+  </a>
 
 </body>
 </html>
