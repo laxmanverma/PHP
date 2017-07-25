@@ -191,10 +191,20 @@ window.onclick = function(event) {
   <button type="submit" name="logout" style="width:auto;">Logout</button>
   </form>
 
-  <br />
+  <!-- <br />
   <a href="http://myproject.dev/delete.html">
   <button type="submit" name="delete" style="width:auto;">Delete</button>
-  </a>
+  </a> -->
+
+  <button onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Delete</button>
+  <div id="id1" class="modal">
+    <span onclick="document.getElementById('id1').style.display='none'" class="close" title="Close Modal">×</span>
+    <form name="delete" action="delete.php" method="post">
+      <label style="background-color:red;"><b>Enter ID to delete</b></label>
+      <input type="number" name="delete" required>
+      <button type="submit" name="submit" style="width:auto;">Delete</button>
+    </form>
+  </div>
 
 </body>
 </html>
