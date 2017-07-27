@@ -29,11 +29,14 @@ class AddEmp {
             
             $this->dao = new RunQuery();
             $this->dao->addEmp($this->emp_name, $this->emp_email, $this->emp_dep);
+            header('Location: http://myproject.dev/Ems/Welcome.php');
             
         }
         
-        $tpl = new SMTemplate();
-        $tpl->render('welcome');
+        echo "<script>alert(added successfully)";
+        
+//        $tpl = new SMTemplate();
+//        $tpl->render('welcome');
         
     }
 }
