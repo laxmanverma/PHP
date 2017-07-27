@@ -28,12 +28,12 @@ else{
         var $dao;
 
         function fetchInfo(){
-            echo "Welcome";
+            
             $this->dao = new RunQuery();
-            $this->dao->viewEmp();
-
-//            $tpl = new SMTemplate();
-//            $tpl->render(welcome, $data);
+            $data = $this->dao->viewEmp();
+            
+            $tpl = new SMTemplate();
+            $tpl->render('welcome', $data);
 
         }
     }
