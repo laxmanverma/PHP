@@ -32,7 +32,6 @@ class Register{
     
 }
 
-//echo "hi";
 $register = new Register();
 $register->setter();
 
