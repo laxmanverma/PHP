@@ -28,9 +28,10 @@ class SMTemplate{
     
     function render($template, $data = array()){
         
-        foreach($data as $key => $value){
-            $this->_smarty->assign($key, $value);
-        }
+//        foreach($data as $key => $value){
+//            $this->_smarty->assign($key, $value);
+//        }
+        $this->_smarty->assign('data', $data);
         $this->_smarty->display($template . '.tpl');
     }
 
