@@ -40,6 +40,8 @@
     </div>
     
     <div>
+        
+    <fieldset style="margin :0;"><legend>Details</legend>  
     <table style="width:100%;border :5px solid black;">
       <tr>
         <th>ID</th>
@@ -47,16 +49,23 @@
         <th>Email</th>
         <th>Department</th>
         <th>Delete</th>
-      </tr>
-      <tr>
-        <th>{$ID}</th>
-        <th>{$empname}</th>
-        <th>{$empemail}</th>
-        <th>{$department}</th>
-        <th>{$delete}</th>
-      </tr>
+     
+    {foreach from=$data key=k item=l}
+            <tr>
+              <th>{$l.ID}</th>
+              <th>{$l.empname}</th>
+              <th>{$l.empemail}</th>
+              <th>{$l.department}</th>
+            <form action='Delete.php' method="post">
+                <input type='hidden' name="ID" value="{$l.delete}">
+              <th><button type='submit' name="delete">Delete</button></th>
+            </form>
+{*              <th>{$l.delete}</th>*}
+            </tr>
+    {/foreach}
+            
     </table>
-    
+    </fieldset>
 </body>
 
 </html>
