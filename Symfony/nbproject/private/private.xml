@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Dao/UserDao.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Controller/UserRegistrationController.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Services/AddEmployeeService.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Services/Services.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Services/DeleteService.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Model/LoginDetails.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Model/EmployeeRegistration.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Model/UserRegistrationModel.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Services/ViewService.php</file>
+            <file>file:/home/laxman/NetBeansProjects/EMS/src/AppBundle/Dao/EmployeeDao.php</file>
+        </group>
+    </open-files>
+</project-private>
