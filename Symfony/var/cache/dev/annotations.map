@@ -1,0 +1,17 @@
+<?php return array (
+  0 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller',
+  1 => 'AppBundle\\Controller\\DefaultController',
+  2 => 'AppBundle\\Controller\\UserRegisterationController',
+  3 => 'Doctrine\\Bundle\\DoctrineBundle\\Controller\\ProfilerController',
+  4 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\AbstractController',
+  6 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerNameParser',
+  7 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerResolver',
+  8 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\ControllerTrait',
+  9 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\RedirectController',
+  10 => 'Symfony\\Bundle\\FrameworkBundle\\Controller\\TemplateController',
+  11 => 'Symfony\\Bundle\\TwigBundle\\Controller\\ExceptionController',
+  12 => 'Symfony\\Bundle\\TwigBundle\\Controller\\PreviewErrorController',
+  13 => 'Symfony\\Bundle\\WebProfilerBundle\\Controller\\ExceptionController',
+  14 => 'Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController',
+  15 => 'Symfony\\Bundle\\WebProfilerBundle\\Controller\\RouterController',
+);
